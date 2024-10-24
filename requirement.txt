@@ -1,0 +1,5 @@
+
+mysql.connector
+secure-smtplib==0.1.1
+pandas
+lxml

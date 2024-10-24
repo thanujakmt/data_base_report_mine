@@ -11,9 +11,9 @@ from openpyxl.styles import PatternFill
 from email.mime.base import MIMEBase
 from email import encoders
 
-subject = f"All Niche Database Report On | {date.today()} |"
-subject_usa_per = f"All Niche USA Percintile Database Report On | {date.today()} |"
-subject_10k = f"Niche Business Report for Every 10,000 People in Data Scraping Database On | {date.today()} |"
+subject = f"All Niche Database Report On new | {date.today()} |"
+subject_usa_per = f"All Niche USA Percintile Database Report On new | {date.today()} |"
+subject_10k = f"Niche Business Report for Every 10,000 People in Data Scraping Database On new | {date.today()} |"
 
 def create_excel_with_styles(df):
     # Create a workbook and access the active worksheet

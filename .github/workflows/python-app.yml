@@ -64,7 +64,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         # Install each dependency individually to ensure they are installed correctly
-        pip install flake8 pytest mysql-connector-python secure-smtplib==0.1.1 pandas lxml
+        pip install flake8 pytest mysql-connector-python secure-smtplib==0.1.1 pandas lxml openpyxl
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     
     - name: Verify dependencies

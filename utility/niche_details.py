@@ -55,6 +55,7 @@ host = "helenzys-mysql-dev.clyhoefsujtn.us-east-1.rds.amazonaws.com"
 # ]
 
 niche_list = [
+    'chinese_medicine',
     'neurofeedback_biofeedback',
     'aesthetician',
     'osteopath',
@@ -154,5 +155,6 @@ db_credential = {"dentist":{"user":"dentist","password":"mis+yOtter56","database
                 "holistic_health" : {"user":"holistic_health_business_db","password":"k3enGame44","database":"holistic_health_business_db"},
                 "osteopath" : {"user":"osteopath_business_db","password":"messyWh@le28","database":"osteopath_business_db"},
                 "aesthetician" : {"user":"aesthetician_business_db","password":"qu!ckCamel89","database":"aesthetician_business_db"},
-                "neurofeedback_biofeedback" : {"user":"neurofeedback","password":"icycopper23","database":"neurofeedback_biofeedback_business_db"}
+                "neurofeedback_biofeedback" : {"user":"neurofeedback","password":"icycopper23","database":"neurofeedback_biofeedback_business_db"},
+                "chinese_medicine" : {"user":"chinese_medicine_business","password":"$illySound83","database":"chinese_medicine_business_db"}
                 }
